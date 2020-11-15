@@ -1,0 +1,184 @@
+.sidebars{
+    background-color: black;
+}
+
+/*Fonts*/
+.navbarlogo {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+    color: white;
+
+}
+
+.navbarinteractive {
+    font-family: 'Patua One', cursive;
+    color: white;
+}
+.dropdown{
+    font-family: 'Patua One', cursive;
+}
+.bg-image {
+    background-image: url("../images/festivalMain.jpg");
+    background-size: cover;
+}
+.bg-image-form {
+    background-image: url("../images/festivalForm.jpg");
+    background-size: cover;
+}
+
+/*Navbar*/
+.navbar ul li a:hover {
+color:#F4A688;}
+.navbar-brand:hover {
+color:#F4A688;}
+.btn-outline-success:hover {
+    background-color:#F4A688;
+}
+.btn-outline{
+    border: 2px solid #F4A688;
+}
+.btn-outline:hover{
+    border: 2px solid #F4A688;
+}
+
+
+
+
+/*Text animation*/
+
+
+
+.p-animated {
+    border-right: solid 3px rgba(244, 166, 136, .75);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Courgette', cursive;
+    font-size: 28px;
+    color: #061A1A;
+    margin: 0 auto;
+}
+
+/* Animation */
+.p-animated {
+    animation: animated-text 4.5s linear 1s 1 normal both,
+        animated-cursor 600ms linear infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor {
+    from {
+        border-right-color: #0A1D25);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+.p-animated-form {
+    border-right: solid 3px rgba(244, 166, 136, .75);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Courgette', cursive;
+    font-size: 28px;
+    color: #061A1A;
+    margin: 0 auto;
+}
+.p-animated-form {
+    animation: animated-text-form 4.5s linear 1s 1 normal both,
+        animated-cursor 600ms linear infinite;
+}
+@keyframes animated-text-form {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 40%;
+    }
+}
+
+
+
+/*Dropdowns*/
+
+.dd-padding-top {
+    padding-top: 40px;
+}
+
+.dd-padding-between {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.dropdown-toggle{
+    background-color: #F9CCAC;
+}
+.dropdown-toggle:hover {
+   background-color: #F4A688;
+}
+
+
+/*Cards*/
+
+.card-padding-top{
+    padding-top: 60px;
+}
+.card-center-align{
+    align-content: center;
+}
+.card-img-top {
+    width: 100%;
+    height: 8vw;
+    object-fit: cover;
+}
+.card-title{
+    font-family: 'Patua One', cursive;
+}
+.card{
+    background-color: #FBEFCC;
+}
+.c-btn-color{
+    background-color: #F4A688;
+    border: 2px solid #E0876A;
+}
+.c-btn-color:hover{
+    background-color:  #F9CCAC;
+    border: 2px solid #E0876A;
+}
+.card-text{
+    font-family: 'Tinos', serif;
+}
+
+
+/*Footer*/
+
+.page-footer{
+    background-color: #C3836B;
+}
+.text-uppercase{
+    font-family: 'Patua One', cursive;
+}
+.footer-text{
+    font-family: 'Tinos', serif;
+}
+.footer-link{
+    font-family: 'Tinos', serif;
+    color:white;
+}
+.footer-link:hover{
+    font-family: 'Tinos', serif;
+    color:#FBEFCC;
+}
